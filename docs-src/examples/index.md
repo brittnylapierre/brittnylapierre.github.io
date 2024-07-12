@@ -1,9 +1,9 @@
 ---
 layout: example.11ty.cjs
-title: <my-element> ⌲ Examples ⌲ Basic
+title: Brittny Lapierre
 tags: example
 name: Basic
-description: A basic example
+description: Nice to meet you!
 ---
 
 <style>

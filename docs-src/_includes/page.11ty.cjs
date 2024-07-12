@@ -25,7 +25,6 @@ module.exports = function (data) {
   </head>
   <body>
     ${header()}
-    ${nav(data)}
     <div id="main-wrapper">
       <main>
         ${content}
