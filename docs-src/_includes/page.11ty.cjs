@@ -1,6 +1,5 @@
 const header = require('./header.11ty.cjs');
 const footer = require('./footer.11ty.cjs');
-const nav = require('./nav.11ty.cjs');
 const relative = require('./relative-path.cjs');
 
 module.exports = function (data) {
@@ -25,7 +24,6 @@ module.exports = function (data) {
   </head>
   <body>
     ${header()}
-    ${nav(data)}
     <div id="main-wrapper">
       <main>
         ${content}

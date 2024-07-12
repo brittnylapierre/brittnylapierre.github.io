@@ -1,6 +1,6 @@
 ---
 layout: page.11ty.cjs
-title: <my-element> ⌲ Home
+title: Brittny Lapierre
 ---
 
 # &lt;my-element>
