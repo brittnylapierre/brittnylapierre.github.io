@@ -2,7 +2,7 @@ name: Eleventy Build
 on: 
   push:
     branches:
-      - main  # Set a branch name to trigger deployment
+      - master  # Set a branch name to trigger deployment
 jobs:
   build_deploy:
     runs-on: ubuntu-18.04
