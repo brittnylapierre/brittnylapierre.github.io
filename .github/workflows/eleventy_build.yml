@@ -6,15 +6,21 @@ on:
 jobs:
   build_deploy:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: ['14.17.6']
+
     steps:
-      - uses: actions/checkout@master
-      - name: Build
-        uses: TartanLlama/actions-eleventy@master
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
         with:
-          install_dependencies: true
-          publish_dir: docs-src
-          destination_dir: docs
-          publish_branch: master
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
+      - name: Install packages
+        run: npm ci
+
+      - name: Run npm build
+        run: npm run build
