@@ -1,0 +1,268 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/uf1tfruyuq-lyijidgy",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Nice to meet you, I'm Brittny!"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/uf1tfruyuq-lyijidgy/canvas/5ob5hcqzswa-lyik6iqh",
+      "type": "Canvas",
+      "height": 883,
+      "width": 501,
+      "label": {
+        "en": [
+          "Saint Lawrence River"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/uf1tfruyuq-lyijidgy/canvas/5ob5hcqzswa-lyik6iqh/annotation-page/he4b0k4ga3s-lyik6iqh",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/uf1tfruyuq-lyijidgy/annotation/of88mhws5kp-lyik6hwm",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/uf1tfruyuq-lyijidgy/canvas/5ob5hcqzswa-lyik6iqh",
+              "body": {
+                "id": "https://ia601200.us.archive.org/BookReader/BookReaderImages.php?zip=/15/items/roughingitinbush01mood_0/roughingitinbush01mood_0_jp2.zip&file=roughingitinbush01mood_0_jp2/roughingitinbush01mood_0_0034.jp2&id=roughingitinbush01mood_0&scale=4&rotate=0",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 883,
+                "width": 501
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/uf1tfruyuq-lyijidgy/canvas/8kvjepb2t2y-lyijwixn",
+      "type": "Canvas",
+      "height": 523,
+      "width": 360,
+      "label": {
+        "en": [
+          "Fossils"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/uf1tfruyuq-lyijidgy/canvas/8kvjepb2t2y-lyijwixn/annotation-page/c8e34gbh55-lyijwixn",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/uf1tfruyuq-lyijidgy/annotation/me0tzd49gab-lyijwifj",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/uf1tfruyuq-lyijidgy/canvas/8kvjepb2t2y-lyijwixn",
+              "body": {
+                "id": "https://ia802807.us.archive.org/BookReader/BookReaderImages.php?zip=/17/items/fossilsinontario00lemo/fossilsinontario00lemo_jp2.zip&file=fossilsinontario00lemo_jp2/fossilsinontario00lemo_0009.jp2&id=fossilsinontario00lemo&scale=8&rotate=0",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 523,
+                "width": 360
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/uf1tfruyuq-lyijidgy/canvas/hscesfbu7k-lyik7zv6",
+      "type": "Canvas",
+      "height": 5000,
+      "width": 4147,
+      "label": {
+        "en": [
+          "Illumination"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/uf1tfruyuq-lyijidgy/canvas/hscesfbu7k-lyik7zv6/annotation-page/b5mj5893o5u-lyik7zv6",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/uf1tfruyuq-lyijidgy/annotation/bsh0r3788qm-lyik7z3j",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/uf1tfruyuq-lyijidgy/canvas/hscesfbu7k-lyik7zv6",
+              "body": {
+                "id": "https://ia904502.us.archive.org/32/items/clevelandart-2006.15.a-leaf-from-a-psalter/2006.15.a_full.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5000,
+                "width": 4147
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/uf1tfruyuq-lyijidgy/canvas/vjkcrrynd2i-lyik94fh",
+      "type": "Canvas",
+      "height": 492,
+      "width": 768,
+      "label": {
+        "en": [
+          "Castle by the River"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/uf1tfruyuq-lyijidgy/canvas/vjkcrrynd2i-lyik94fh/annotation-page/3ttnuqubrwg-lyik94fh",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/uf1tfruyuq-lyijidgy/annotation/1x95ihnqh2b-lyik943h",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/uf1tfruyuq-lyijidgy/canvas/vjkcrrynd2i-lyik94fh",
+              "body": {
+                "id": "https://ia600704.us.archive.org/21/items/brooklynmuseum-o151-ruined-castle-and-river/brooklynmuseum-o151i000-21.107_transp786.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 492,
+                "width": 768
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/uf1tfruyuq-lyijidgy/canvas/ahjaeok4ash-lyikd70g",
+      "type": "Canvas",
+      "height": 523,
+      "width": 329,
+      "label": {
+        "en": [
+          "J. R. R. Tolkien"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/uf1tfruyuq-lyijidgy/canvas/ahjaeok4ash-lyikd70g/annotation-page/ly0bmsudey-lyikd70g",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/uf1tfruyuq-lyijidgy/annotation/kcmeboktpyl-lyikd6nm",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/uf1tfruyuq-lyijidgy/canvas/ahjaeok4ash-lyikd70g",
+              "body": {
+                "id": "https://ia804700.us.archive.org/BookReader/BookReaderImages.php?zip=/21/items/in.ernet.dli.2015.463603/2015.463603.A-Middle-English-Vocabulary-Ed-1st_jp2.zip&file=2015.463603.A-Middle-English-Vocabulary-Ed-1st_jp2/2015.463603.A-Middle-English-Vocabulary-Ed-1st_0000.jp2&id=in.ernet.dli.2015.463603&scale=8&rotate=0",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 523,
+                "width": 329
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/uf1tfruyuq-lyijidgy/canvas/g1rzcva9pv5-lyikc3z5",
+      "type": "Canvas",
+      "height": 405,
+      "width": 275,
+      "label": {
+        "en": [
+          "Carleton University"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/uf1tfruyuq-lyijidgy/canvas/g1rzcva9pv5-lyikc3z5/annotation-page/gxzrmfd1zy-lyikc3z5",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/uf1tfruyuq-lyijidgy/annotation/wuym5j5t05-lyikc3jk",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/uf1tfruyuq-lyijidgy/canvas/g1rzcva9pv5-lyikc3z5",
+              "body": {
+                "id": "https://ia600901.us.archive.org/BookReader/BookReaderImages.php?zip=/30/items/thecharleton25carl/thecharleton25carl_jp2.zip&file=thecharleton25carl_jp2/thecharleton25carl_0005.jp2&id=thecharleton25carl&scale=8&rotate=0",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 405,
+                "width": 275
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/uf1tfruyuq-lyijidgy/canvas/fdbkek5dkgj-lyikab80",
+      "type": "Canvas",
+      "height": 385,
+      "width": 259,
+      "label": {
+        "en": [
+          "The Art of Composition"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/uf1tfruyuq-lyijidgy/canvas/fdbkek5dkgj-lyikab80/annotation-page/t5q2ac0znxd-lyikab80",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/uf1tfruyuq-lyijidgy/annotation/rextge0sf5o-lyikaagb",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/uf1tfruyuq-lyijidgy/canvas/fdbkek5dkgj-lyikab80",
+              "body": {
+                "id": "https://ia601308.us.archive.org/BookReader/BookReaderImages.php?zip=/14/items/artofcomposition00jacouoft/artofcomposition00jacouoft_jp2.zip&file=artofcomposition00jacouoft_jp2/artofcomposition00jacouoft_0045.jp2&id=artofcomposition00jacouoft&scale=8&rotate=0",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 385,
+                "width": 259
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/uf1tfruyuq-lyijidgy/canvas/g1v4xoa1e7a-lyikebee",
+      "type": "Canvas",
+      "height": 656,
+      "width": 445,
+      "label": {
+        "en": [
+          "Semantics and Modal Logic"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/uf1tfruyuq-lyijidgy/canvas/g1v4xoa1e7a-lyikebee/annotation-page/60poicc358-lyikebee",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/uf1tfruyuq-lyijidgy/annotation/y29sk6w4nnf-lyikeauq",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/uf1tfruyuq-lyijidgy/canvas/g1v4xoa1e7a-lyikebee",
+              "body": {
+                "id": "https://ia601505.us.archive.org/BookReader/BookReaderImages.php?zip=/1/items/in.ernet.dli.2015.46380/2015.46380.Meaning-And-Necessity-A-Study-In-Semantics-And-Modal-Logic_jp2.zip&file=2015.46380.Meaning-And-Necessity-A-Study-In-Semantics-And-Modal-Logic_jp2/2015.46380.Meaning-And-Necessity-A-Study-In-Semantics-And-Modal-Logic_0014.jp2&id=in.ernet.dli.2015.46380&scale=4&rotate=0",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 656,
+                "width": 445
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
