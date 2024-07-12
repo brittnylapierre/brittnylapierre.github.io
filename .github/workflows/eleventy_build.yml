@@ -2,18 +2,25 @@ name: Eleventy Build
 on: 
   push:
     branches:
-      - master  # Set a branch name to trigger deployment
+      - development  # Set a branch name to trigger deployment
 jobs:
   build_deploy:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: ['14.17.6']
+
     steps:
-      - uses: actions/checkout@master
-      - name: Build
-        uses: TartanLlama/actions-eleventy@master
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js 20
+        uses: actions/setup-node@v3
         with:
-          install_dependencies: true
-          publish_dir: _site 
-          publish_branch: gh-pages
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install packages
+        run: npm ci
+
+      - name: Run build
+        run: npm run docs
