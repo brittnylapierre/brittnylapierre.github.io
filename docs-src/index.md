@@ -3,7 +3,7 @@ layout: page.11ty.cjs
 title: Brittny Lapierre
 ---
 
-# Coming Soon!
+### My Story
 
 <section>
   <div>
