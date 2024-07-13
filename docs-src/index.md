@@ -3,7 +3,7 @@ layout: page.11ty.cjs
 title: Brittny Lapierre
 ---
 
-### My Story
+## Get to know me
 
 <section>
   <div>
