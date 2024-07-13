@@ -29,7 +29,6 @@ module.exports = function (data) {
         ${content}
       </main>
     </div>
-    ${footer()}
   </body>
 </html>`;
 };
